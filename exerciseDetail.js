@@ -79,7 +79,7 @@ Promise.all([loadExerciseData()])
             resultDiv.innerHTML = '<h2>운동 정보를 찾을 수 없습니다.</h2>';
         }
         // 사용자 위치 표시
-        displayUserLocation(userLocation);
+        //displayUserLocation(userLocation);
     })
     .catch(error => {
         console.error(error);
