@@ -10,6 +10,16 @@ const loadExerciseData = async () => {
     return exercisesData;
 };
 
+// 위치 정보 표시
+const displayUserLocation = (userLocation) => {
+    const userLocationDiv = document.getElementById('userLocation');
+    if (userLocation && userLocation.city && userLocation.district) {
+        userLocationDiv.innerHTML = `<p>현재 위치: ${userLocation.city} ${userLocation.district}</p>`;
+    } else {
+        userLocationDiv.innerHTML = '<p>위치를 받아올 수 없습니다.</p>';
+    }
+};
+
 
 // 동호회 목록 표시
 const loadClubList = async (userLocation, exercise) => {
@@ -68,6 +78,8 @@ Promise.all([loadExerciseData()])
         } else {
             resultDiv.innerHTML = '<h2>운동 정보를 찾을 수 없습니다.</h2>';
         }
+        // 사용자 위치 표시
+        displayUserLocation(userLocation);
     })
     .catch(error => {
         console.error(error);
