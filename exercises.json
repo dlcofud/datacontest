@@ -1,0 +1,481 @@
+[
+    {
+        "name": "산책",
+        "difficulty": 2,
+        "intensity": 2,
+        "frequency": "주 3-4회",
+        "description": "산책은 가벼운 유산소 운동입니다. 누구나 쉽게 할 수 있으며, 스트레스를 해소하는 데 효과적입니다. 야외에서 즐길 수 있어 자연을 느끼며 운동할 수 있습니다."
+    },
+    {
+        "name": "조깅",
+        "difficulty": 3,
+        "intensity": 3,
+        "frequency": "주 2-3회",
+        "description": "조깅은 체력을 키우고 체중을 감소시키는 데 도움이 됩니다. 다소 강도가 있지만, 지속적으로 할 수 있는 운동입니다. 공원이나 도로에서 쉽게 할 수 있습니다."
+    },
+    {
+        "name": "자전거",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "자전거 타기는 유산소 운동으로 다리 근육을 강화하고 심혈관 건강에 좋습니다. 야외에서 자연을 즐기며 운동할 수 있습니다."
+    },
+    {
+        "name": "요가",
+        "difficulty": 2,
+        "intensity": 2,
+        "frequency": "주 2-3회",
+        "description": "요가는 스트레칭과 명상을 결합한 운동입니다. 긴장 완화, 유연성 향상, 정신적인 안정에 도움이 됩니다."
+    },
+    {
+        "name": "필라테스",
+        "difficulty": 3,
+        "intensity": 3,
+        "frequency": "주 2-3회",
+        "description": "필라테스는 유연성, 근력, 균형을 개선하는 운동입니다. 고강도 운동은 아니지만, 꾸준히 하면 효과적입니다."
+    },
+    {
+        "name": "배드민턴",
+        "difficulty": 3,
+        "intensity": 3,
+        "frequency": "주 1-2회",
+        "description": "배드민턴은 빠른 속도로 몸을 움직여야 하는 운동입니다. 그룹으로 할 수 있어 즐겁고 경쟁적인 운동입니다."
+    },
+    {
+        "name": "축구",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 1-2회",
+        "description": "축구는 유산소와 근력 운동을 결합한 운동으로 전신 운동에 효과적입니다. 체력과 협동심을 향상시키는 운동입니다."
+    },
+    {
+        "name": "줄넘기",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 3-4회",
+        "description": "줄넘기는 유산소 운동으로 빠른 속도로 뛰면서 체지방을 감소시키고, 심혈관 건강을 개선합니다."
+    },
+    {
+        "name": "산악",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 1-2회",
+        "description": "산악은 야외에서 자연을 즐기며 걷는 운동입니다. 유산소 운동이면서 다리 근육을 강화할 수 있는 좋은 운동입니다."
+    },
+    {
+        "name": "암벽 등반",
+        "difficulty": 5,
+        "intensity": 5,
+        "frequency": "주 1-2회",
+        "description": "암벽 등반은 전신 운동으로 근력과 균형 감각을 모두 향상시킬 수 있는 고강도 운동입니다. 체력과 집중력이 중요합니다."
+    },
+    {
+        "name": "수영",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "수영은 전신 운동으로 심혈관 건강과 근력 향상에 좋습니다. 물속에서 운동하므로 관절에 부담이 적고, 체중 감소에도 효과적입니다."
+    },
+
+
+    {
+        "name": "탁구",
+        "difficulty": 2,
+        "intensity": 3,
+        "frequency": "주 2-3회",
+        "description": "탁구는 빠른 반사 신경을 요구하는 운동으로, 전신을 사용하여 심혈관 건강을 개선하고 스트레스를 해소할 수 있습니다."
+    },
+    {
+        "name": "아이스하키",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "아이스하키는 고강도 운동으로, 체력을 키우고 민첩성을 높이며 팀워크와 협동을 요구하는 스포츠입니다."
+    },
+    {
+        "name": "합기도",
+        "difficulty": 4,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "합기도는 근력과 유연성, 집중력을 향상시키는 전통적인 무술입니다. 정신적인 평정도 배우며 전신을 사용하는 운동입니다."
+    },
+    {
+        "name": "펜싱",
+        "difficulty": 4,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "펜싱은 빠른 속도로 진행되는 스포츠로, 반사 신경과 전신 근력을 강화하는 데 도움이 됩니다. 기술적이고 전략적인 사고를 요구합니다."
+    },
+    {
+        "name": "카누",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "카누는 상체와 팔 근육을 주로 사용하며, 전신을 강화하는 유산소 운동입니다. 자연에서 즐기기에 좋습니다."
+    },
+    {
+        "name": "핸드볼",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "핸드볼은 팀워크와 빠른 반응 속도가 요구되는 스포츠입니다. 심혈관 건강을 증진하고 전신 근육을 발달시킬 수 있습니다."
+    },
+    {
+        "name": "택견",
+        "difficulty": 3,
+        "intensity": 3,
+        "frequency": "주 2-3회",
+        "description": "택견은 전통적인 한국의 무술로, 유연성과 균형감을 기르는 데 도움이 됩니다. 전신을 사용하여 체력을 향상시킬 수 있습니다."
+    },
+    {
+        "name": "세팍타크로",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "세팍타크로는 팀 스포츠로, 발과 몸을 이용하여 공을 넘기는 경기입니다. 민첩성과 협동 능력을 기를 수 있습니다."
+    },
+    {
+        "name": "당구",
+        "difficulty": 2,
+        "intensity": 2,
+        "frequency": "주 1-2회",
+        "description": "당구는 집중력과 전략적 사고를 요구하는 스포츠로, 유산소 운동보다는 정적인 운동에 속합니다."
+    },
+    {
+        "name": "골프",
+        "difficulty": 3,
+        "intensity": 2,
+        "frequency": "주 1-2회",
+        "description": "골프는 심리적 집중과 기술이 중요한 스포츠입니다. 비교적 낮은 강도의 운동으로, 전신 근육을 사용할 수 있습니다."
+    },
+    {
+        "name": "태권도",
+        "difficulty": 4,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "태권도는 유연성과 근력을 함께 향상시키는 무술로, 빠른 발차기와 다양한 동작을 통해 신체 능력을 키울 수 있습니다."
+    },
+    {
+        "name": "치어리딩",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "치어리딩은 리듬과 유연성을 기르며, 체력을 향상시키고 팀워크를 배우는 운동입니다."
+    },
+    {
+        "name": "궁도",
+        "difficulty": 3,
+        "intensity": 2,
+        "frequency": "주 2-3회",
+        "description": "궁도는 집중력과 정확성이 중요한 전통적인 사격 스포츠입니다. 비교적 정적인 운동에 속합니다."
+    },
+    {
+        "name": "조정",
+        "difficulty": 4,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "조정은 팀워크와 협동을 요구하는 유산소 운동으로, 상체와 하체를 모두 사용하여 체력을 강화하는 데 효과적입니다."
+    }, 
+    {
+        "name": "킥복싱",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "킥복싱은 전신 근육을 발달시키고 체력을 증진시키는 운동으로, 빠른 리듬과 강한 타격이 특징입니다."
+    },
+    {
+        "name": "주짓수",
+        "difficulty": 4,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "주짓수는 근력과 기술을 함께 기를 수 있는 격투기로, 유연성과 균형감을 향상시킬 수 있습니다."
+    },
+    {
+        "name": "카라테",
+        "difficulty": 4,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "카라테는 강한 정신력과 집중력이 요구되는 무술로, 신체적인 능력뿐만 아니라 정신적인 수양을 중요시합니다."
+    },
+    {
+        "name": "볼링",
+        "difficulty": 2,
+        "intensity": 2,
+        "frequency": "주 1-2회",
+        "description": "볼링은 유연성과 정확성을 요구하는 운동으로, 강한 신체적 활동보다는 정적인 운동입니다."
+    },
+    {
+        "name": "야구소프트볼(야구)",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "야구는 뛰어난 반사 신경과 집중력을 요구하는 스포츠로, 전신을 사용하여 체력과 민첩성을 키울 수 있습니다."
+    },
+    {
+        "name": "수상스키·웨이크스포츠",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 1-2회",
+        "description": "수상스키는 균형감과 전신 근력을 발달시키는 고강도 스포츠입니다. 물 위에서 빠르게 이동하며 체력을 향상시킬 수 있습니다."
+    },
+    {
+        "name": "유도",
+        "difficulty": 4,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "유도는 체력을 기르고, 균형과 기술을 배우는 전통적인 일본의 격투기입니다. 기술적이고 전략적인 사고가 필요합니다."
+    },
+    {
+        "name": "소프트테니스",
+        "difficulty": 3,
+        "intensity": 3,
+        "frequency": "주 2-3회",
+        "description": "소프트테니스는 가벼운 라켓을 사용하여 빠른 반응과 정확한 타격을 요구하는 운동으로, 심혈관 건강을 개선합니다."
+    },
+    {
+        "name": "수상스키·웨이크보드",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 1-2회",
+        "description": "수상스키와 웨이크보드는 물에서의 빠른 속도와 균형을 요구하는 고강도 운동으로, 체력과 협응 능력을 키울 수 있습니다."
+    },
+    {
+        "name": "파크골프",
+        "difficulty": 2,
+        "intensity": 2,
+        "frequency": "주 1-2회",
+        "description": "파크골프는 골프와 유사하지만 난이도가 낮은 스포츠로, 스트레스 해소와 가벼운 체력 향상에 도움이 됩니다."
+    },
+    {
+        "name": "근대5종",
+        "difficulty": 5,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "근대5종은 다양한 스포츠를 결합한 종목으로, 체력과 기술을 종합적으로 키울 수 있는 고강도 운동입니다."
+    },
+    {
+        "name": "씨름",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "씨름은 체력과 힘을 요구하는 전통적인 한국의 격투기입니다. 상대방과의 힘겨루기를 통해 근력을 강화할 수 있습니다."
+    },
+    {
+        "name": "패러글라이딩",
+        "difficulty": 3,
+        "intensity": 3,
+        "frequency": "주 1-2회",
+        "description": "패러글라이딩은 하늘을 나는 운동으로, 긴장감을 풀고 정신적인 여유를 찾는 데 효과적입니다."
+    },
+    {
+        "name": "바둑",
+        "difficulty": 3,
+        "intensity": 1,
+        "frequency": "주 2-3회",
+        "description": "바둑은 전략적 사고와 집중력을 요구하는 보드 게임으로, 체력보다는 정신적인 훈련에 집중하는 활동입니다."
+    },
+    {
+        "name": "테니스",
+        "difficulty": 4,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "테니스는 빠른 반응 속도와 체력, 기술을 요구하는 스포츠로, 심혈관 건강을 증진시키고 근력 발달에 도움이 됩니다."
+    },
+    {
+        "name": "그라운드골프",
+        "difficulty": 2,
+        "intensity": 2,
+        "frequency": "주 1-2회",
+        "description": "그라운드골프는 골프와 비슷한 방식으로 진행되지만, 가벼운 운동을 원하는 사람들에게 적합한 스포츠입니다."
+    },
+    {
+        "name": "하키",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "하키는 빠른 속도와 강한 체력을 요구하는 팀 스포츠로, 근력과 민첩성을 키울 수 있습니다."
+    },
+    {
+        "name": "철인3종",
+        "difficulty": 5,
+        "intensity": 5,
+        "frequency": "주 3-4회",
+        "description": "철인3종은 수영, 자전거, 달리기를 결합한 고강도 운동으로, 체력과 정신력을 극대화할 수 있는 운동입니다."
+    },
+    {
+        "name": "롤러",
+        "difficulty": 3,
+        "intensity": 3,
+        "frequency": "주 2-3회",
+        "description": "롤러는 균형감과 민첩성을 요구하는 운동으로, 실내외에서 모두 즐길 수 있으며 체력 향상에 효과적입니다."
+    },
+    {
+        "name": "레슬링",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "레슬링은 체력과 근력을 요구하는 격투 스포츠로, 유연성과 균형 감각, 기술적 전략이 중요한 운동입니다."
+    },
+    {
+        "name": "농구",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "농구는 빠른 반사 신경과 팀워크, 체력을 요구하는 고강도 스포츠로, 심혈관 건강과 전신 근육을 강화할 수 있습니다."
+    },
+    {
+        "name": "체스",
+        "difficulty": 3,
+        "intensity": 1,
+        "frequency": "주 2-3회",
+        "description": "체스는 전략적 사고와 집중력을 필요로 하는 보드 게임으로, 체력보다는 두뇌를 자극하는 활동입니다."
+    },
+    {
+        "name": "족구",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "족구는 발로 공을 차는 팀 스포츠로, 전신을 사용하여 민첩성, 균형 감각 및 협동심을 키울 수 있습니다."
+    },
+    {
+        "name": "스쿼시",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "스쿼시는 빠른 반응 속도와 전신 근력을 요구하는 스포츠로, 심혈관 건강과 체력 향상에 매우 효과적입니다."
+    },
+    {
+        "name": "복싱",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "복싱은 강도 높은 체력 훈련과 기술 훈련을 결합한 운동으로, 스트레스 해소와 체력 증진에 매우 효과적입니다."
+    },
+    {
+        "name": "루지",
+        "difficulty": 5,
+        "intensity": 5,
+        "frequency": "주 1-2회",
+        "description": "루지는 빠른 속도로 트랙을 내려가는 스릴 넘치는 스포츠로, 체력과 민첩성을 요구하는 고강도 운동입니다."
+    },
+    {
+        "name": "스키",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 1-2회",
+        "description": "스키는 전신 근력을 강화하고 심혈관 건강에 좋은 운동으로, 강한 체력과 균형 감각이 필요합니다."
+    },
+    {
+        "name": "배구",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "배구는 반사 신경과 팀워크, 체력을 요구하는 스포츠로, 상체 근력과 민첩성을 향상시킬 수 있습니다."
+    },
+    {
+        "name": "에어로빅힙합",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "에어로빅힙합은 댄스와 유산소 운동을 결합한 운동으로, 리듬을 타며 체력을 키우고 스트레스를 해소하는 데 좋습니다."
+    },
+    {
+        "name": "보디빌딩",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 3-4회",
+        "description": "보디빌딩은 근육을 키우는 데 집중하는 운동으로, 강한 근력 훈련과 꾸준한 노력이 필요합니다."
+    },
+    {
+        "name": "빙상",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "빙상은 균형 감각과 체력을 요구하는 운동으로, 스피드와 기술이 중요한 스포츠입니다."
+    },
+    {
+        "name": "야구소프트볼",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "야구소프트볼은 빠른 반응 속도와 협동심을 기를 수 있는 팀 스포츠로, 전신을 사용하는 운동입니다."
+    },
+    {
+        "name": "육상",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "육상은 뛰기, 달리기, 점프 등 다양한 운동을 포함한 스포츠로, 전신 근력과 심폐 기능을 향상시킬 수 있습니다."
+    },
+    {
+        "name": "럭비",
+        "difficulty": 5,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "럭비는 강한 체력과 협동심을 요구하는 고강도 스포츠로, 전신 근육을 효과적으로 발달시킬 수 있습니다."
+    },
+    {
+        "name": "댄스스포츠",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "댄스스포츠는 리듬감과 유연성을 요구하는 운동으로, 춤을 통해 체력을 기르고 스트레스를 해소할 수 있습니다."
+    },
+    {
+        "name": "게이트볼",
+        "difficulty": 2,
+        "intensity": 2,
+        "frequency": "주 1-2회",
+        "description": "게이트볼은 유연성과 정확성을 요구하는 운동으로, 가벼운 운동을 원하는 사람들에게 적합합니다."
+    },
+    {
+        "name": "사격",
+        "difficulty": 3,
+        "intensity": 2,
+        "frequency": "주 1-2회",
+        "description": "사격은 정확성과 집중력을 요구하는 운동으로, 정신적 훈련이 중요한 스포츠입니다."
+    },
+    {
+        "name": "컬링",
+        "difficulty": 3,
+        "intensity": 3,
+        "frequency": "주 1-2회",
+        "description": "컬링은 전략과 기술을 요구하는 스포츠로, 팀워크와 집중력 발달에 좋습니다."
+    },
+    {
+        "name": "역도",
+        "difficulty": 5,
+        "intensity": 5,
+        "frequency": "주 2-3회",
+        "description": "역도는 근력을 집중적으로 키울 수 있는 운동으로, 고강도 훈련을 통해 전신 근육을 강화할 수 있습니다."
+    },
+    {
+        "name": "체조",
+        "difficulty": 3,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "체조는 유연성, 근력, 균형을 기르는 운동으로, 기술적인 움직임과 집중력을 요구합니다."
+    },
+    {
+        "name": "검도",
+        "difficulty": 4,
+        "intensity": 4,
+        "frequency": "주 2-3회",
+        "description": "검도는 정신력과 체력을 함께 기를 수 있는 운동으로, 칼을 사용한 기술 훈련과 집중력 향상에 도움을 줍니다."
+    },
+    {
+        "name": "파워보트",
+        "difficulty": 4,
+        "intensity": 5,
+        "frequency": "주 1-2회",
+        "description": "파워보트는 속도감과 기술적인 조종 능력을 요구하는 고강도 수상 스포츠입니다."
+    },
+    {
+        "name": "요트",
+        "difficulty": 3,
+        "intensity": 3,
+        "frequency": "주 1-2회",
+        "description": "요트는 조종 기술과 집중력이 중요한 스포츠로, 자연과 함께하는 여유로운 운동입니다. 바람을 이용해 항해하는 이 스포츠는 균형 감각과 협동을 요구하며, 동시에 해양 환경에서의 안정성을 기를 수 있습니다."
+    }
+    
+]

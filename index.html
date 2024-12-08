@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정신건강 & 운동 설문</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>정신건강 & 운동 설문</h1>
+
+        <form id="survey-form">
+            <!-- 1~3번 설문: 바 형태 -->
+            <div class="question">
+                <label for="depression-level">1. 하루를 시작할 때 기분이 좋았나요?</label>
+                <input type="range" id="depression-level" name="depression-level" min="0" max="5" step="1">
+            </div>
+
+            <div class="question">
+                <label for="plan-ability">2. 하고 싶은 일을 계획하거나 시작하기가 수월했나요?</label>
+                <input type="range" id="plan-ability" name="plan-ability" min="0" max="5" step="1">
+  
+            </div>
+
+            <div class="question">
+                <label for="enjoyment">3. 즐겁게 느껴졌던 순간이 많았나요?</label>
+                <input type="range" id="enjoyment" name="enjoyment" min="0" max="5" step="1">
+            </div>
+
+            <!-- 4~6번 설문: 스트레스 관련 질문 -->
+            <div class="question">
+                <label for="adaptability">4. 예상치 못한 일에 적응하는 것이 쉬웠나요?</label>
+                <input type="range" id="adaptability" name="adaptability" min="0" max="5" step="1">
+            </div>
+
+            <div class="question">
+                <label for="stress-level">5. 중요한 일들을 처리하는 데 어려움을 느꼈나요?</label>
+                <input type="range" id="stress-level" name="stress-level" min="0" max="5" step="1">
+            </div>
+
+            <div class="question">
+                <label for="positive-change">6. 긍정적인 변화를 만들어내는 것이 쉬웠나요?</label>
+                <input type="range" id="positive-change" name="positive-change" min="0" max="5" step="1">
+            </div>
+
+            <!-- 7. 어떤 유형의 신체활동을 더 선호하나요? -->
+            <div class="question">
+                <label>7. 어떤 유형의 신체활동을 더 선호하나요?</label>
+                <div class="choices">
+                    <div class="choice">
+                        <input type="radio" id="aerobic" name="preferred-exercise" value="aerobic">
+                        <label for="aerobic">
+                            <img src="exercise1.png" alt="유산소 운동" class="exercise-img">
+                            <p>유산소 활동</p>
+                        </label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="strength" name="preferred-exercise" value="strength">
+                        <label for="strength">
+                            <img src="exercise2.png" alt="근력 운동" class="exercise-img">
+                            <p>근력 운동</p>
+                        </label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="static" name="preferred-exercise" value="static">
+                        <label for="static">
+                            <img src="exercise3.png" alt="정적인 운동" class="exercise-img">
+                            <p>정적인 운동</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- 8. 운동을 할 때 어떤 환경이 가장 편안하게 느껴지나요? -->
+            <div class="question">
+                <label>8. 운동을 할 때 어떤 환경이 가장 편안하게 느껴지나요?</label>
+                <div class="choices">
+                    <!-- 실내/야외 선택지 -->
+                        <div class="choice">
+                            <input type="radio" id="indoor" name="exercise-environment1" value="indoor">
+                            <label for="indoor">
+                                <img src="indoor.png" alt="실내" class="exercise-img">
+                                <p>실내에서</p>
+                            </label>
+                        </div>
+                        <div class="choice">
+                            <input type="radio" id="outdoor" name="exercise-environment1" value="outdoor">
+                            <label for="outdoor">
+                                <img src="outdoor.png" alt="야외" class="exercise-img">
+                                <p>야외에서</p>
+                            </label>
+                        </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <label>9. 누구랑 운동하고 싶나요?</label>
+                <div class="choices">
+                    <!-- 혼자/단체 선택지 -->
+                    <div class="choice">
+                        <input type="radio" id="alone" name="exercise-environment2" value="alone">
+                        <label for="alone">
+                            <img src="alone.png" alt="혼자" class="exercise-img">
+                            <p>혼자서</p>
+                        </label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="group" name="exercise-environment2" value="group">
+                        <label for="group">
+                            <img src="group.png" alt="단체" class="exercise-img">
+                            <p>단체로</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            
+
+            <!-- 10. 운동 강도에 대한 선호는 무엇인가요? -->
+            <div class="question">
+                <label>10. 운동 강도에 대한 선호는 무엇인가요?</label>
+                <div class="choices">
+                    <div class="choice">
+                        <input type="radio" id="low" name="intensity" value="low">
+                        <label for="low">
+                            <p>낮은 강도</p>
+                        </label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="medium" name="intensity" value="medium">
+                        <label for="medium">
+                            <p>적당한 강도</p>
+                        </label>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" id="high" name="intensity" value="high">
+                        <label for="high">
+                            <p>높은 강도</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit">제출</button>
+        </form>
+        <div id="result" class="hidden"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

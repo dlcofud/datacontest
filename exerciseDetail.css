@@ -1,0 +1,142 @@
+/* 기본 레이아웃 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* 운동 세부 정보 스타일 */
+#exerciseDetails {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#exerciseDetails p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* 동호회 목록 스타일 */
+#clubList {
+    margin-top: 30px;
+}
+
+.club-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.club-card {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.club-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.club-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.club-card strong {
+    color: #007BFF;
+}
+
+
+.club {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.club:hover {
+    background-color: #f1f1f1;
+}
+
+.club h2 {
+    font-size: 1.8em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.club p {
+    font-size: 1em;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.club p:last-child {
+    margin-bottom: 0;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .club h2 {
+        font-size: 1.6em;
+    }
+
+    .club p {
+        font-size: 0.9em;
+    }
+}

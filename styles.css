@@ -1,0 +1,198 @@
+/* 전체 컨테이너를 정중앙으로 배치 */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* 각 질문을 정중앙으로 배치 */
+.question {
+    display: flex;
+    flex-direction: column;  /* 세로로 배치 */
+    align-items: center;     /* 수평 중앙 정렬 */
+    margin-bottom: 20px;
+}
+
+/* 슬라이드 바는 항상 아래쪽에 배치 */
+.question input[type="range"] {
+    width: 80%;  /* 슬라이드 바의 너비를 80%로 설정 */
+    margin-top: 10px; /* 슬라이드 바와 텍스트 간의 간격 추가 */
+}
+
+/* 질문의 텍스트 */
+.question label {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px; /* 텍스트와 슬라이드 바 사이의 간격 */
+}
+
+/* 7~8번 질문 텍스트 강조하지 않도록 수정 */
+.question label:not(.bold) {
+    font-weight: normal;
+}
+
+/* 버튼 스타일 */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;  /* 버튼과 선택지 사이 간격 */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* 선택지 스타일 */
+.choices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+/* 각 선택지 스타일 */
+.choice {
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    width: 48%;  /* 선택지의 너비를 두 개씩 배치 */
+}
+
+/* 이미지 크기 조정 및 스타일 */
+.exercise-img {
+    width: 80px;  /* 이미지 크기 조정 */
+    height: 80px; /* 이미지 높이도 조정 */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; /* 이미지 크기 변경 애니메이션 */
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* 이미지 hover 효과 */
+.exercise-img:hover {
+    transform: scale(1.1);
+}
+
+/* 선택지의 radio 버튼 숨기기 */
+.choice input[type="radio"] {
+    display: none;
+}
+
+/* 체크된 선택지에 스타일 추가 */
+.choice input[type="radio"]:checked + label {
+    background-color: #e1f5fe;
+    border: 2px solid #007bff;
+    padding: 5px;  /* padding을 주어 이미지와 테두리 간격 조정 */
+    box-sizing: border-box; 
+}
+
+/* 선택지의 텍스트 */
+.choice p {
+    margin-top: 10px;
+}
+
+.choice label {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* label에 마우스를 올렸을 때 이미지 크기 효과 */
+.choice label:hover {
+    transform: scale(1.05); /* 마우스를 올렸을 때 약간 커지는 효과 */
+}
+
+.exercise-img:hover {
+    transform: scale(1.1); /* 이미지 hover 효과 */
+}
+
+/* 결과 박스 스타일 */
+.result {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.result ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.result ul li {
+    margin: 10px 0;
+}
+
+.result ul li::before {
+    content: "✔️";
+    margin-right: 8px;
+    color: #4caf50;
+}
+
+.result p {
+    font-size: 16px;
+    color: #888;
+    margin-top: 15px;
+}
+
+/* 이미지를 크기 조정 */
+.exercise-img {
+    width: 80px;   /* 이미지 너비를 80px로 설정 */
+    height: 80px;  /* 이미지 높이도 80px로 설정 */
+    object-fit: cover;  /* 비율에 맞게 높이를 자동으로 조정 */
+    margin-bottom: 5px; 
+}
+
+/* 반응형 디자인 (모바일에서의 레이아웃 변경) */
+@media (max-width: 768px) {
+    .choices {
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    .choice {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
